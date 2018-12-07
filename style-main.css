@@ -12,7 +12,7 @@ h6 {
     font-weight: normal;
     letter-spacing: 0.1rem;
     word-break: keep-all;
-    color: #666566;
+    color: #414141;
 }
 
 ul,
@@ -22,7 +22,7 @@ a {
     font-family: Avenir, 'Noto Sans TC', '微軟正黑體', sans-serif;
     letter-spacing: 0.15rem;
     font-weight: lighter;
-    color: #666566;
+    color: #4C4C4C;
 }
 
 
@@ -340,7 +340,7 @@ blockquote{
 .detail-box > h5{
     font-size: 0.9rem;
     padding: 0 8px;
-    font-weight: lighter;
+    font-weight: 400;
     letter-spacing: 0.3rem;
     color: #9BA6AB;
 }
@@ -373,6 +373,20 @@ blockquote{
     background-size: 35%;
     background-position: right;
 }
+
+.s2-bg {
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+    margin-top: 33%;
+    padding-left: 3%;
+    height: 800px;
+    background-image: url(imgs/s3-bg.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+}
+
 .s-combo-2 {
     width: 100%;
     margin: 5% 0 0 -5%;   
