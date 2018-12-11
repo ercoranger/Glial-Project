@@ -1,5 +1,8 @@
 body{
     overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 h1,
@@ -29,43 +32,55 @@ a {
 
 header {
     text-align: center;
-    display: inline;
-    position: relative;
     height: 1200px;
-
 }
 
 .banner {
     width: 100%;
-    min-width: 1280px;
+    min-width: 0px;
     height: 800px;
-
+    display: block;
+    
     background-image: url(imgs/banner-glial.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top 10% left 50%;
+    background-position: center;
 }
 
 .project-title {
     position: absolute;
-    width: 70%;
-    margin: 12% 15% 0 15%;
-    z-index: 2;
+    width: 90%;
+    top: 17%;
+    left: 5%;
+    z-index: 3;
+    text-align: center;
 
+}
+
+.project-title > h5 {
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 6rem;
+    text-indent: 6rem;
+    color: #919191;
 }
 
 .project-title > h1 {
+    width: 100%;
     font-weight: bold;
+    margin: 38px 0 52px 0;
     font-size: 7.7rem;
     color: #4a4a4a;
     letter-spacing: 1rem;
+    text-indent: 1rem;
 }
 
 .project-title > h3 {
-    margin-top: -3rem;
+    width: 100%;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.01rem;
     letter-spacing: 0.5rem;
+    text-indent: 0.5rem;
     font-weight: lighter;
     color: #666566;
 }
@@ -104,7 +119,7 @@ header {
 blockquote{
     position: absolute;
     right: 10px;
-    top: 500px;
+    top: 360px;
     width: 10px;
     height: 1000px;
     margin-bottom: 40px;
@@ -190,7 +205,7 @@ blockquote{
 
 .flash-7{
     top: 24%;
-    right: 32%;
+    right: 28%;
     transform: rotate(-22deg);
 }
 
@@ -206,6 +221,12 @@ blockquote{
     transform: rotate(12deg);
 }
 
+.flash-10{
+    top: 55%;
+    right: 15%;
+    transform: rotate(10deg);
+    z-index: 999;
+}
 
 /*---nav----*/
 
@@ -300,12 +321,23 @@ blockquote{
 .text-box > h3, .text-box-2 > h3 {
     font-size: 2.4rem;
     font-weight: 200;
-    margin-bottom: 9%;
+    margin-bottom: 7%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid #4A90E2;
+}
+
+.text-box > h3:hover, .text-box-2 > h3:hover{
+    border-bottom: 3px solid #D0021B;
 }
 
 .text-box > p, .text-box-2 > p {
     font-size: 0.9rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.text-box > hr, .text-box-2 > hr{
+    color: #919191;
+    opacity: 0.5;
 }
 
 .content-detail {
@@ -314,8 +346,8 @@ blockquote{
 }
 
 .content-detail p {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.7rem;
     margin: 30px 0;
     padding: 0 8px;
     text-align: justify;
@@ -345,9 +377,29 @@ blockquote{
     color: #9BA6AB;
 }
 
-.detail-box:last-child > a{
-    /*商品連結訊息*/
+.detail-box:last-child > a {
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 9;
+    opacity: 0;
+    padding: 14% 12%;
+    margin: 2.5%;
 }
+
+
+
+
+.detail-box:last-child > a:hover{
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #4a4a4a;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
 
 .s-designer, .s-material, .s-product {
     width: 100%;
@@ -387,6 +439,19 @@ blockquote{
     background-position: right;
 }
 
+.s3-bg {
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+    margin-top: 36%;
+    padding-left: 0%;
+    height: 600px;
+    background-image: url(imgs/s4-bg.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+}
+
 .s-combo-2 {
     width: 100%;
     margin: 5% 0 0 -5%;   
@@ -417,11 +482,11 @@ blockquote{
 }
 
 .name-box-1, .name-box-2, .name-box-3, .name-box-4 {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.9);
     position: absolute;
     margin:  0.5rem 3rem;
     text-align: center;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .name-box-1:hover, .name-box-2:hover, .name-box-3:hover, .name-box-4:hover{
@@ -431,27 +496,27 @@ blockquote{
 
 .name-box-1 {
     top: 52%;
-    right: 27%;
+    right: 31%;
 }
 
 .name-box-2 {
-    top: 9%;
-    left: 2%;
+    top: 13%;
+    left: 11%;
 }
 
 .name-box-3 {
-    top: 8%;
+    top: 10%;
     left: 43%;
 }
 
 .name-box-4 {
-    top: 17%;
-    right: 1%;
+    top: 22%;
+    right: 9%;
 }
 
 .brand-box{
     
-margin-top: 12.5%;
+margin-top: 10%;
 }
 
 
@@ -460,16 +525,17 @@ margin-top: 12.5%;
 }
 
 .logo-box {
-    padding: 5% 3% 0 0;
-    margin-left: 12%;
+    padding: 0 9% 3% 9%;
+    border-bottom: 2px solid #4A90E2;
 }
+
 
 .brand-intro {
     width: 100%;
     height: 50%;
-    padding: 5% 0 5% 3%;
-    border-left: 2px solid #4A90E2;
-    word-break: keep-all;
+    margin-top: 3%;
+    text-align: center;
+    
 }
 
 .brand-intro > p {
@@ -483,7 +549,7 @@ margin-top: 12.5%;
 }
 
 .lightning-box-down {
-    margin-top: 12.5%;
+    margin-top: 10.5%;
 }
 
 .red-lightning {
@@ -514,6 +580,7 @@ margin-top: 12.5%;
 
 
 .disclaimer {
+    width: 100%;
     height: 50px;
     font-size: 0.6rem;
     text-align: center;
@@ -526,35 +593,60 @@ margin-top: 12.5%;
 /*---rwd---*/
 
 @media (min-width: 1500px) {
-    .logo-box{
-        margin-left: 22%;
-    }
-}
-    
-    
-@media (max-width: 1280px) {
     .banner {
-        height: 650px;
-        background-position: center;
+    height: 860px;
     }
     
-    .il-left {
-        margin: 5rem 0 0 7rem;
+    blockquote {
+        top: 560px;
     }
-    
-    .il-right {
-        margin: 5rem 7rem 0 0;
-    }
-    
-    .detail-box:nth-of-type(2){
-        padding: 0 2% 0 1%;
-        margin-top: 1%;
-     }
-    
-    .flash-7 {
-        display: none;
-    }
-    
-    
-    
 }
+    
+    @media (max-width: 1280px) {
+        .banner {
+            height: 650px;
+            background-position: center;
+        }
+        
+        .project-title {
+            top: 12%;
+        }
+
+        header {
+            height: 900px;
+        }
+
+        .il-left {
+            margin: 5rem 0 0 7rem;
+        }
+
+        .il-right {
+            margin: 5rem 7rem 0 0;
+        }
+
+        .detail-box:nth-of-type(2) {
+            padding: 0 2% 0 1%;
+            margin-top: 1%;
+        }
+
+        .flash-7 {
+            display: none;
+        }
+
+        .text-box {
+            padding: 5%;
+        }
+
+        .text-box > p,
+        .text-box-2 > p {
+            font-size: 0.9rem;
+            line-height: 1.7rem;
+        }
+
+        .text-box-2 {
+            margin: 60% 0 0 10%;
+        }
+
+
+
+    }
