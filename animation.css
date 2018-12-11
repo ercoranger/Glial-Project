@@ -359,3 +359,289 @@
     -ms-transform:  translate(0px,0px)  ;
   }
 }
+
+/*----5--------*/
+
+.slow-wow {
+  animation: slow-wow linear 10s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: slow-wow linear 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: slow-wow linear 10s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -ms-animation: slow-wow linear 10s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes slow-wow{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    transform:  translate(10px,0px)  ;
+  }
+  30% {
+    transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    transform:  translate(10px,0px)  ;
+  }
+  50% {
+    transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    transform:  translate(10px,0px)  ;
+  }
+  70% {
+    transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    transform:  translate(10px,0px)  ;
+  }
+  90% {
+    transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes slow-wow{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -moz-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -moz-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes slow-wow {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -webkit-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -webkit-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes slow-wow {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  20% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  30% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  40% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  60% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  70% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  80% {
+    -ms-transform:  translate(10px,0px)  ;
+  }
+  90% {
+    -ms-transform:  translate(-10px,0px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+
+/*----------6---------------------*/
+
+.thunder{
+  animation: thunder linear 7s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: thunder linear 7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: thunder linear 7s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -ms-animation: thunder linear 7s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes thunder{
+  0% {
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  25% {
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  50% {
+    opacity:1;
+    transform:  rotate(-10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  64% {
+    opacity:0.9;
+    transform:  rotate(10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  79% {
+    opacity:1;
+    transform:  rotate(-10deg) scaleX(0.90) scaleY(0.90) ;
+  }
+  100% {
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes thunder{
+  0% {
+    opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  25% {
+    opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  50% {
+    opacity:1;
+    -moz-transform:  rotate(-10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  64% {
+    opacity:0.9;
+    -moz-transform:  rotate(10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  79% {
+    opacity:1;
+    -moz-transform:  rotate(-10deg) scaleX(0.90) scaleY(0.90) ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes thunder {
+  0% {
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  25% {
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  50% {
+    opacity:1;
+    -webkit-transform:  rotate(-10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  64% {
+    opacity:0.9;
+    -webkit-transform:  rotate(10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  79% {
+    opacity:1;
+    -webkit-transform:  rotate(-10deg) scaleX(0.90) scaleY(0.90) ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes thunder {
+  0% {
+    opacity:1;
+    -ms-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  25% {
+    opacity:1;
+    -ms-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  50% {
+    opacity:1;
+    -ms-transform:  rotate(-10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  64% {
+    opacity:0.9;
+    -ms-transform:  rotate(10deg) scaleX(1.00) scaleY(1.00) ;
+  }
+  79% {
+    opacity:1;
+    -ms-transform:  rotate(-10deg) scaleX(0.90) scaleY(0.90) ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  rotate(0deg) scaleX(1.00) scaleY(1.00) ;
+  }
+}
