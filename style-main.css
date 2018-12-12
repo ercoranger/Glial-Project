@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,400,700&subset=chinese-traditional');
+
 body {
     overflow-x: hidden;
     width: 100%;
@@ -11,23 +13,29 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Avenir, 'Noto Sans TC', '微軟正黑體', sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.1rem;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.17rem;
     word-break: keep-all;
     color: #414141;
-    text-indent: 0.1rem;
+    text-indent: 0.17rem;
 }
 
 ul,
 li,
 p,
+i,
 a {
-    font-family: Avenir, 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     letter-spacing: 0.15rem;
-    font-weight: lighter;
-    color: #4C4C4C;
+    font-weight: 100;
     text-indent: 0.15rem;
+}
+
+a:active,
+a:visited,
+a:link{
+    color: #000;
 }
 
 
@@ -53,7 +61,7 @@ header {
     position: absolute;
     width: 90%;
     top: 17%;
-    left: 5%;
+    margin: 0 5%;
     z-index: 3;
     text-align: center;
 
@@ -69,7 +77,7 @@ header {
 
 .project-title > h1 {
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     margin: 38px 0 52px 0;
     font-size: 7.7rem;
     color: #4a4a4a;
@@ -129,7 +137,6 @@ blockquote {
 
 .intro-en {
     opacity: 0.8;
-    font-family: Optima, serif;
     font-size: 0.6rem;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
@@ -231,6 +238,20 @@ blockquote {
     z-index: 999;
 }
 
+.flash-11 {
+    top: 5%;
+    right: 12%;
+    transform: rotate(18deg);
+    z-index: 999;
+}
+
+.flash-12 {
+    top: 39%;
+    left: 30%;
+    transform: rotate(-22deg);
+    z-index: 999;
+}
+
 /*---nav----*/
 
 .nav {
@@ -248,7 +269,7 @@ blockquote {
 
 .nav a {
     text-decoration: none;
-    width: 24%;
+    width: 25%;
 }
 
 .nav-option {
@@ -296,7 +317,7 @@ blockquote {
 .section-2,
 .section-3 {
     width: 100%;
-    height: calc(1680px + 5%);
+    height: calc(1280px + 5%);
     display: flex;
     position: relative;
 }
@@ -313,6 +334,12 @@ blockquote {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
+
+
+.col-xs-offset-1, .col-xs-offset-2{
+    margin-left: 0;
+}
+
 
 .text-box-2 {
     width: 400px;
@@ -338,7 +365,7 @@ blockquote {
 .text-box-2 > h3,
 .text-box-3 > h3 {
     font-size: 2.4rem;
-    font-weight: 200;
+    font-weight: lighter;
     margin-bottom: 0%;
     padding-bottom: 0%;
     /*color: #4A90E2;
@@ -348,6 +375,7 @@ blockquote {
 .text-box > h6,
 .text-box-2 > h6 {
     color: #4A90E2;
+    font-size: 0.9rem;
     letter-spacing: 0.1rem;
     margin: 3% 0 7% 0;
 }
@@ -401,6 +429,8 @@ blockquote {
 
 .detail-box > h2:hover {
     cursor: s-resize;
+    transition: all .5s ease-in;
+    margin: -1% 0 5% 0;
 }
 
 .detail-box > h5 {
@@ -420,6 +450,7 @@ blockquote {
 .click2buy-text {
     position: absolute;
     display: none;
+    font-weight: 400;
     width: 10%;
     padding: 20px 40px;
     background-color: rgba(207, 216, 220, 0.9);
@@ -427,6 +458,7 @@ blockquote {
     z-index: 9;
     margin: 15% 0 0 10%;
     font-size: 1.2rem;
+    transition: all .5s ease-in;
 }
 
 .show-click2buy {
@@ -437,7 +469,12 @@ blockquote {
 .s-material,
 .s-product {
     width: 100%;
+}
 
+.s-designer:hover,
+.s-material:hover{
+    margin-top: 5%;
+    transition: all .5s ease-in;
 }
 
 .s-combo {
@@ -492,7 +529,7 @@ blockquote {
     margin: 5% 0 0 -5%;
 }
 
-.section-2 > .row {
+.section-2 > .row, section-3 > .row {
     margin-top: 5rem;
 }
 
@@ -533,6 +570,7 @@ blockquote {
 .name-box-4:hover {
     opacity: 1;
     margin: 1rem 4rem;
+    transition: all .5s ease-in;
 }
 
 .name-box-1 {
@@ -556,7 +594,6 @@ blockquote {
 }
 
 .brand-box {
-
     margin-top: 10%;
 }
 
@@ -592,20 +629,25 @@ blockquote {
     text-indent: 2rem;
 }
 
+.brand-intro >h4:hover{
+    letter-spacing: 4rem;
+    text-indent: 4rem;
+    transition: all .5s ease-in;
+}
+
 .brand-intro > p {
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     line-height: 1.5rem;
 }
 
-
 .footer-links {
-    width: 90%;
+    width: 32%;
     height: 50px;
     list-style: none;
     display: inline-flex;
-    margin: 70px 5% 20px 5%;
     text-align: center;
+    justify-content: center;
 }
 
 .footer-links a {
@@ -613,17 +655,15 @@ blockquote {
 }
 
 .footer-links > li {
-    width: 10%;
+    width: 8%;
     font-size: 0.8rem;
-}
-
-.footer-links > li:first-child {
-    margin-left: 27%;
+    
 }
 
 
 .disclaimer {
-    width: 100%;
+    width: 90%;
+    margin: 0 4% 0 6%;
     height: 50px;
     font-size: 0.6rem;
     text-align: center;
@@ -631,150 +671,3 @@ blockquote {
     opacity: 0.8;
 }
 
-
-
-/*---rwd---*/
-
-@media (min-width: 1500px) {
-    .banner {
-        height: 860px;
-    }
-
-    blockquote {
-        top: 560px;
-    }
-}
-
-@media (max-width: 1280px) {
-    .banner {
-        height: 700px;
-        background-position: center;
-    }
-
-    .project-title {
-        top: 12%;
-    }
-
-    header {
-        height: 900px;
-    }
-
-    .il-left {
-        margin: 5rem 0 0 10%;
-    }
-
-    .il-right {
-        margin: 5rem 10% 0 0;
-    }
-
-    .detail-box:nth-of-type(2) {
-        padding: 0 2% 0 1%;
-        margin-top: 1%;
-    }
-
-    .flash-7 {
-        display: none;
-    }
-
-    .text-box {
-        padding: 5%;
-    }
-
-    .text-box > p,
-    .text-box-2 > p {
-        font-size: 0.9rem;
-        line-height: 1.7rem;
-    }
-
-    .text-box-2 {
-        margin: 60% 0 0 10%;
-    }
-
-    .brand-intro > p {
-        font-size: 0.95rem;
-        line-height: 1.8rem;
-    }
-
-    .brand-intro {
-        margin-bottom: 9%;
-    }
-
-
-}
-
-@media (max-width: 992px) {
-    .banner {
-        height: 660px;
-        background-image: url(imgs/sm-banner.png);
-    }
-    
-    .divider:first-of-type{
-        margin: 8% 25% 5% 25%;
-    }
-}
-
-@media (max-width: 768px){
-    .banner {
-        height: 620px;
-    }
-}
-
-
-@media (max-width: 680px) {
-    .banner {
-        height: 600px;
-        background-image: url(imgs/xs-banner.png);
-        opacity: 0.5;
-    }
-    
-    .intro-en{
-        display: none;
-    }
-    
-    .project-title > h1{
-        font-size: 6rem;
-    }
-    
-    .project-title > h3{
-        font-size: 0.85rem;
-    }
-    
-    .nav > ul{
-        margin: 3rem 0 1rem 0;
-    }
-    
-    .divider:first-of-type{
-        margin: 12% 25% 5% 25%;
-    }
-    
-    .icon-pages{
-        display: none;
-    }
-    
-    .s-combo{
-        margin: 0;
-    }
-    
-    .text-box{
-        margin: 0;
-        padding: 0;
-    }
-    
-    
-    
-    
-    
-    .brand-intro > h4{
-        letter-spacing: 1rem;
-        text-indent: 1rem;
-    }
-    
-    
-
-    
-    
-    
-    
-    
-    
-}

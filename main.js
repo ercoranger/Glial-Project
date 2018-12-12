@@ -1,25 +1,16 @@
-
 var section1 = document.getElementById('landingIntro');
 var section2 = document.getElementById('astrocyte');
 var section3 = document.getElementById('schwann-cells');
 var section4 = document.getElementById('satelite-cells');
 
 var sec1Height = section1.offsetHeight;
-var sec2Height = section2.offsetHeight + sec1Height- 20;
-var sec3Height = section3.offsetHeight + sec2Height- 20;
+var sec2Height = section2.offsetHeight + sec1Height - 20;
+var sec3Height = section3.offsetHeight + sec2Height - 20;
 var sec4Height = section4.offsetHeight + sec3Height - 50;
-
-console.log(sec1Height);
-console.log(sec2Height);
-console.log(sec3Height);
-console.log(sec4Height);
-
 
 $(function () {
     $(window).scroll(function () {
         var scrollVal = $(this).scrollTop();
-
-        console.log(scrollVal);
 
         if (scrollVal >= sec1Height) {
             $('.nav').addClass('nav-fixed');
