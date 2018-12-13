@@ -1,9 +1,11 @@
-<!doctype html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    
     <meta name="description" content="Glial Project by TPCreatvie">
     <meta name="keywords" content="" />
     <title>台電文創</title>
@@ -22,15 +24,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <style>
-        @viewport {
-            width: device-width;
-        }
-
-        @-ms-viewport {
-            width: device-width;
-        }
-    </style>
 </head>
 
 <body>
@@ -42,7 +35,7 @@
         </div>
 
         <div class="banner">
-            <div class="highlight">
+            <div class="highlight" onselectstart="return false;" unselectable="on">
                 <img class="flash-1 flashes flash2" src="imgs/flash.png" />
                 <img class="flash-2 flashes flash" src="imgs/flash.png" />
                 <img class="flash-3 flashes flash" src="imgs/flash.png" />
@@ -115,11 +108,11 @@
 
         <div class="row">
 
-            <div class="col-md-8 col-xs-10 col-xs-offset-1">
+            <div class="col-md-8 col-sm-8 col-xs-10 col-xs-offset-1">
                 <div class="box"><img class="s-combo s1-hi" src="imgs/s2-combo.png" /></div>
             </div>
 
-            <div class="col-md-4 col-xs-8 col-xs-offset-2">
+            <div class="col-md-4 col-sm-4 col-xs-8 col-xs-offset-2">
                 <div class="text-box">
                     <h3>獨一無二的日常風景</h3>
                     <h6 class="slow-wow">&#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213;</h6>
@@ -151,15 +144,32 @@
             </div>
 
             <div class="s1-bg">
-                <img class="flash-9 flashes flash3" src="imgs/flash.png" />
             </div>
 
+            <img class="flash-9 flashes flash3" src="imgs/flash.png" />
 
         </div>
     </div>
 
-
     <hr class="divider">
+
+    <!--補間動畫-->
+
+    <div class="space-between">
+        <svg class="stroke ani" width="100%" height="25rem">
+
+            <line fill="none" stroke="#FFD54F" stroke-width="1.4173" stroke-miterlimit="10" x1="387.107" y1="306.585" x2="22.092" y2="67.384" />
+            <polyline fill="none" stroke="#FFD54F" stroke-width="1.4173" stroke-miterlimit="10" points="1468.104,374.518 1573.453,218.529 
+	1480.371,227.062 1567.164,94.091 " />
+            <polyline fill="none" stroke="#FFD54F" stroke-width="1.4173" stroke-miterlimit="10" points="736.989,482.786 676.988,304.374 
+	627.262,383.522 574.285,233.829 " />
+            <circle fill="none" stroke="#FFD54F" stroke-width="1.4173" stroke-miterlimit="10" cx="849.338" cy="99.832" r="44.248" />
+            <line fill="none" stroke="#FFD54F" stroke-width="1.4173" stroke-miterlimit="10" x1="1069" y1="293" x2="1342.585" y2="-18.901" />
+        </svg>
+    </div>
+
+   <!--/補間動畫-->  
+
     <div class="section-2" id="schwann-cells">
 
         <div class="icon-pages ip-2">
@@ -169,9 +179,9 @@
 
         <div class="row">
 
-            <div class="col-md-3 col-xs-8 col-xs-offset-2">
+            <div class="col-md-3 col-sm-3 col-xs-8 col-xs-offset-2">
                 <div class="text-box-2">
-                    <h3>無名角色，溫暖下一章</h3>
+                    <h3>無名角色 溫暖下一章</h3>
                     <h6 class="slow-wow">&#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213; &#8213;</h6>
                     <p>為卸下任務的礙子拂去塵埃，為漂流木拋光成長刻痕，讓循環經濟創作升級跨越; 延續自然物質獨特風格結構，以光的溫暖紋路重生轉化，投射生命的自然奔放。</p>
                     <hr>
@@ -179,15 +189,15 @@
                 </div>
             </div>
 
-            <div class="col-md-9 col-xs-10 col-xs-offset-1">
+            <div class="col-md-9 col-sm-9 col-xs-10 col-xs-offset-1">
                 <img class="s-combo-2 s2-hi" src="imgs/s3-combo.png" />
             </div>
 
             <div class="row content-detail">
                 <div class="detail-box col-md-4 col-xs-4">
                     <h5>台電文創 X C.L Studio</h5>
-                    <p>" 永創文化，勇闖文化 "<br>
-                        Endless creativity.Culture without limit.<br>
+                    <p>"永創文化，勇闖文化"<br>
+                        Endless creativity. Culture without limit.<br>
                         Calvin Lai 來自香港熱愛台灣，深賦職人精神，延續大自然為使命，擅長以手工重組木作與銀質媒材。以升級再造觀點，帶來廢棄物無限可能的想像!</p>
                     <img class="s-designer" src="imgs/s3-designer.jpg" />
                 </div>
@@ -205,9 +215,11 @@
                     </a>
                 </div>
             </div>
+
             <div class="s2-bg">
-                <img class="flash-10 flashes flash3" src="imgs/flash.png" />
             </div>
+
+            <img class="flash-10 flashes flash3" src="imgs/flash.png" />
 
         </div>
     </div>
