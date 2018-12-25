@@ -137,6 +137,7 @@ blockquote {
 
 .intro-en {
     opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     font-size: 0.6rem;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
@@ -169,12 +170,14 @@ blockquote {
 /*---nav----*/
 
 .nav {
-    z-index: 666;
+    z-index: 666666;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav > ul {
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 2rem 0 1rem 0;
     padding: 0 2%;
@@ -231,14 +234,16 @@ blockquote {
 .section-2,
 .section-3 {
     width: 100%;
-    height: calc(1280px + 5%);
+    height: calc(1280px + 10%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
 }
 
 .section-4 {
     width: 100%;
-    height: calc(600px + 5%);
+    height: calc(600px + 10%);
 }
 
 .text-box {
@@ -289,6 +294,7 @@ blockquote {
     color: #4A90E2;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
+    text-indent:0.1rem;
     margin: 3% 0 7% 0;
 }
 
@@ -308,6 +314,7 @@ blockquote {
 .text-box-2 > hr {
     color: #919191;
     opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
 }
 
 .content-detail {
@@ -340,6 +347,7 @@ blockquote {
 
 .detail-box > h2:hover {
     cursor: s-resize;
+    -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
     margin: -1% 0 5% 0;
 }
@@ -349,6 +357,7 @@ blockquote {
     padding: 0 8px;
     font-weight: 100;
     letter-spacing: 0.3rem;
+    text-indent:0.3rem;
 }
 
 .click2buy {
@@ -368,6 +377,7 @@ blockquote {
     z-index: 9;
     margin: 15% 0 0 10%;
     font-size: 1.2rem;
+    -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
 
@@ -384,6 +394,7 @@ blockquote {
 .s-designer:hover,
 .s-material:hover{
     margin-top: 5%;
+    -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
 
@@ -425,7 +436,7 @@ blockquote {
     position: absolute;
     width: 100%;
     z-index: -999;
-    margin-top: 36%;
+    margin-top: 40%;
     padding-left: 0%;
     height: 600px;
     background-image: url(imgs/s4-bg.png);
@@ -463,6 +474,15 @@ blockquote {
     font-weight: 300;
 }
 
+.name-boxes a {
+    opacity: 0.2;
+    text-decoration: none;
+    letter-spacing: 10px;
+    text-indent:10px;
+    padding: 5rem 1.8rem 0 1.8rem;
+    
+}
+
 .name-box-1,
 .name-box-2,
 .name-box-3,
@@ -472,6 +492,7 @@ blockquote {
     margin: 0.5rem 3rem;
     text-align: center;
     opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
 
 .name-box-1:hover,
@@ -479,8 +500,15 @@ blockquote {
 .name-box-3:hover,
 .name-box-4:hover {
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     margin: 1rem 4rem;
+    -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
+}
+
+.name-boxes a:hover{
+    opacity: 1;
+    color: #F3B754;
 }
 
 .name-box-1 {
@@ -542,6 +570,7 @@ blockquote {
 .brand-intro >h4:hover{
     letter-spacing: 4rem;
     text-indent: 4rem;
+    -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
 
@@ -555,9 +584,13 @@ blockquote {
     width: 32%;
     height: 50px;
     list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .footer-links a {
@@ -579,5 +612,6 @@ blockquote {
     text-align: center;
     line-height: 1rem;
     opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 

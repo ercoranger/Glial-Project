@@ -73,7 +73,7 @@
 }
 
 .flash-11 {
-    top: 5%;
+    top: 15%;
     right: 12%;
     transform: rotate(18deg);
     z-index: 999;
@@ -91,9 +91,46 @@
     margin: -17% 5% 0 5%;
     position: absolute;
     display: block;
-    z-index: 666666;
+    z-index: 66;
 }
 
+.s-b-3{
+    margin: -47% 5% 0 5%;
+    z-index: -666;
+}
+
+/*---------svg--------------*/
+
+.stroke {
+    height: 17rem;
+    opacity: 0.8;
+    stroke-dashoffset: 500;
+    stroke-dasharray: 300;
+}
+
+.stroke-2 {
+    height: 12rem;
+    opacity: 0.8;
+    stroke-dashoffset: 500;
+    stroke-dasharray: 300;
+}
+
+.stroke-3 {
+    height: 600px;
+    stroke-dashoffset: 600;
+    stroke-dasharray: 300;
+}
+
+.ani {
+    animation: draw 9s linear infinite;
+}
+
+@keyframes draw {
+
+   0% {
+        stroke-dashoffset: 0;
+    }
+}
 
 /*----animation---*/
 .flash {
@@ -858,23 +895,5 @@
     100% {
         opacity: 1;
         -ms-transform: rotate(0deg) scaleX(1.00) scaleY(1.00);
-    }
-}
-
-/*---------svg--------------*/
-
-.stroke {
-    stroke-dashoffset: 500;
-    stroke-dasharray: 300;
-}
-
-.ani {
-    animation: draw 9s linear infinite;
-}
-
-@keyframes draw {
-
-   0% {
-        stroke-dashoffset: 0;
     }
 }
