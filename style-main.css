@@ -107,6 +107,7 @@ header {
 }
 
 .quote > p {
+    text-align: justify;
     width: 60%;
     margin: 0 20%;
     font-size: 0.9rem;
@@ -575,6 +576,7 @@ blockquote {
 }
 
 .brand-intro > p {
+    text-align: justify;
     font-size: 0.9rem;
     letter-spacing: 0.2rem;
     line-height: 1.5rem;
