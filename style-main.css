@@ -15,9 +15,11 @@ h5,
 h6 {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
     font-weight: 400;
+    letter-spacing: 2.72px;
     letter-spacing: 0.17rem;
     word-break: keep-all;
     color: #414141;
+    text-indent: 2.72px;
     text-indent: 0.17rem;
 }
 
@@ -27,8 +29,10 @@ p,
 i,
 a {
     font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    letter-spacing: 2.4px;
     letter-spacing: 0.15rem;
     font-weight: 100;
+    text-indent: 2.4px;
     text-indent: 0.15rem;
 }
 
@@ -69,8 +73,11 @@ header {
 
 .project-title > h5 {
     width: 100%;
+    font-size: 16px;
     font-size: 1rem;
+    letter-spacing: 96px;
     letter-spacing: 6rem;
+    text-indent: 96px;
     text-indent: 6rem;
     color: #919191;
 }
@@ -79,17 +86,23 @@ header {
     width: 100%;
     font-weight: 700;
     margin: 38px 0 52px 0;
+    font-size: 123.2px;
     font-size: 7.7rem;
     color: #4a4a4a;
+    letter-spacing: 16px;
     letter-spacing: 1rem;
+    text-indent: 16px;
     text-indent: 1rem;
 }
 
 .project-title > h3 {
     width: 100%;
     font-weight: normal;
+    font-size: 16.16px;
     font-size: 1.01rem;
+    letter-spacing: 8px;
     letter-spacing: 0.5rem;
+    text-indent: 8px;
     text-indent: 0.5rem;
     font-weight: lighter;
     color: #666566;
@@ -101,8 +114,11 @@ header {
 }
 
 .quote > h4 {
+    font-size: 19.2px;
     font-size: 1.2rem;
+    margin-bottom: 35.2px;
     margin-bottom: 2.2rem;
+    letter-spacing: 4px;
     letter-spacing: 0.25rem;
 }
 
@@ -110,19 +126,23 @@ header {
     text-align: justify;
     width: 60%;
     margin: 0 20%;
+    font-size: 14.4px;
     font-size: 0.9rem;
+    line-height: 24px;
     line-height: 1.5rem;
 }
 
 .il-left {
     float: left;
     width: 12px;
+    margin: 80px 0 0 176px;
     margin: 5rem 0 0 11rem;
 }
 
 .il-right {
     float: right;
     width: 12px;
+    margin: 80px 176px 0 0;
     margin: 5rem 11rem 0 0;
 }
 
@@ -139,6 +159,7 @@ blockquote {
 .intro-en {
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    font-size: 9.6px;
     font-size: 0.6rem;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
@@ -180,6 +201,7 @@ blockquote {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 32px 0 16px 0;
     margin: 2rem 0 1rem 0;
     padding: 0 2%;
 
@@ -191,17 +213,20 @@ blockquote {
 }
 
 .nav-option {
+    font-size: 24px;
     font-size: 1.5rem;
     color: #000;
     text-align: center;
 }
 
 .nav-option > p {
+    font-size: 11.2px;
     font-size: 0.7rem;
 }
 
 .nav-option > hr {
     width: 80%;
+    height: 8px;
     height: 0.5rem;
     border: 1px solid #fff;
 
@@ -282,6 +307,7 @@ blockquote {
 .text-box > h3,
 .text-box-2 > h3,
 .text-box-3 > h3 {
+    font-size: 38.4px;
     font-size: 2.4rem;
     font-weight: lighter;
     margin-bottom: 0%;
@@ -293,8 +319,11 @@ blockquote {
 .text-box > h6,
 .text-box-2 > h6 {
     color: #4A90E2;
+    font-size: 14.4px;
     font-size: 0.9rem;
+    letter-spacing: 1.6px;
     letter-spacing: 0.1rem;
+    text-indent: 1.6px;
     text-indent:0.1rem;
     margin: 3% 0 7% 0;
 }
@@ -307,7 +336,9 @@ blockquote {
 
 .text-box > p,
 .text-box-2 > p {
+    font-size: 14.4px;
     font-size: 0.9rem;
+    line-height: 28.8px;
     line-height: 1.8rem;
 }
 
@@ -324,7 +355,9 @@ blockquote {
 }
 
 .content-detail p {
+    font-size: 14.4px;
     font-size: 0.9rem;
+    line-height: 27.2px;
     line-height: 1.7rem;
     margin: 30px 0;
     padding: 0 8px;
@@ -340,6 +373,7 @@ blockquote {
 }
 
 .detail-box > h2 {
+    font-size: 27.2px;
     font-size: 1.7rem;
     font-weight: lighter;
     margin: -1% 0 8% 0;
@@ -354,10 +388,13 @@ blockquote {
 }
 
 .detail-box > h5 {
+    font-size: 16px;
     font-size: 1rem;
     padding: 0 8px;
     font-weight: 100;
+    letter-spacing: 4.8px;
     letter-spacing: 0.3rem;
+    text-indent: 4.8px;
     text-indent:0.3rem;
 }
 
@@ -377,6 +414,7 @@ blockquote {
     text-align: center;
     z-index: 9;
     margin: 15% 0 0 10%;
+    font-size: 19.2px;
     font-size: 1.2rem;
     -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
@@ -452,6 +490,7 @@ blockquote {
 }
 
 .section-2 > .row, section-3 > .row {
+    margin-top: 80px;
     margin-top: 5rem;
 }
 
@@ -466,20 +505,24 @@ blockquote {
 }
 
 .name-boxes h4 {
+    font-size: 14.4px;
     font-size: 0.9rem;
     width: 100%;
 }
 
 .name-boxes h2 {
+    font-size: 27.2px;
     font-size: 1.7rem;
     font-weight: 300;
 }
 
 .name-boxes a {
     opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
     text-decoration: none;
     letter-spacing: 10px;
     text-indent:10px;
+    padding: 80px 28.8px 0 28.8px;
     padding: 5rem 1.8rem 0 1.8rem;
     
 }
@@ -490,6 +533,7 @@ blockquote {
 .name-box-4 {
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
+    margin: 8px 48px;
     margin: 0.5rem 3rem;
     text-align: center;
     opacity: 0.5;
@@ -502,6 +546,7 @@ blockquote {
 .name-box-4:hover {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    margin: 16px 64px;
     margin: 1rem 4rem;
     -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
@@ -509,6 +554,7 @@ blockquote {
 
 .name-boxes a:hover{
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     color: #F3B754;
 }
 
@@ -564,12 +610,16 @@ blockquote {
 
 .brand-intro > h4 {
     margin: 5% 0;
+    letter-spacing: 32px;
     letter-spacing: 2rem;
+    text-indent: 32px;
     text-indent: 2rem;
 }
 
 .brand-intro >h4:hover{
+    letter-spacing: 64px;
     letter-spacing: 4rem;
+    text-indent: 64px;
     text-indent: 4rem;
     -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
@@ -577,8 +627,11 @@ blockquote {
 
 .brand-intro > p {
     text-align: justify;
+    font-size: 14.4px;
     font-size: 0.9rem;
+    letter-spacing: 3.2px;
     letter-spacing: 0.2rem;
+    line-height: 24px;
     line-height: 1.5rem;
 }
 
@@ -601,6 +654,7 @@ blockquote {
 
 .footer-links > li {
     width: 8%;
+    font-size: 12.8px;
     font-size: 0.8rem;
     
 }
@@ -610,10 +664,13 @@ blockquote {
     width: 90%;
     margin: 0 4% 0 6%;
     height: 50px;
+    font-size: 9.6px;
     font-size: 0.6rem;
     text-align: center;
+    line-height: 16px;
     line-height: 1rem;
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
+
 
