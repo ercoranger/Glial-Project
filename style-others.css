@@ -2,9 +2,10 @@
     width: device-width;
 }
 
-/*---for lovely IE, I guess---*/
-@media screen\0 {
+/*--------------------------IE11修復----------------------------*/
+@media all and (-ms-high-contrast:none) {
 
+/*--
     html {
         min-width: 100%;
     }
@@ -60,17 +61,20 @@
     .col-sm-2 {
         width: 16.67%;
         min-width: 1px;
-    }
+    }--*/
 
     .space-between > svg {
         height: 1px;
-    }/*----------補間動畫關閉 在IE-----------*/
+    }
 
     blockquotes {
         display: none;
     }
-
 }
+
+
+
+
 
 /*---rwd---*/
 
@@ -774,46 +778,48 @@
         text-indent: 0;
         font-weight: 100;
     }
-}
 
-.name-boxes h2 {
-    font-size: 0.7rem;
-}
+    .name-boxes h2 {
+        font-size: 0.7rem;
+    }
 
-.name-boxes a {
-    font-size: 0.6rem;
-    opacity: 1;
-    letter-spacing: 0;
-    text-indent: 0;
-    padding: 3rem 0.2rem 0 0.2rem;
-}
+    .name-boxes a {
+        font-size: 0.6rem;
+        opacity: 1;
+        letter-spacing: 0;
+        text-indent: 0;
+        padding: 3rem 0.2rem 0 0.2rem;
+    }
 
-.brand-intro > h4 {
-    font-size: 0.8rem;
-    letter-spacing: 0.7rem;
-    text-indent: 0.7rem;
-    margin: 5% 0 10% 0;
-}
+    .brand-intro > h4 {
+        font-size: 0.8rem;
+        letter-spacing: 0.7rem;
+        text-indent: 0.7rem;
+        margin: 5% 0 10% 0;
+    }
 
-.brand-intro > p {
-    font-size: 0.7rem;
-    line-height: 1.5rem;
-}
+    .brand-intro > p {
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
 
-.footer-links > li {
-    width: 20%;
-    font-size: 0.5rem;
-}
+    .footer-links > li {
+        width: 20%;
+        font-size: 0.5rem;
+    }
 
-.disclaimer {
-    font-size: 0.45rem;
-}
-
-
-
-
+    .disclaimer {
+        font-size: 0.45rem;
+    }
 
 }
+
+
+
+
+
+
+
 
 @media (max-width: 375px) {
 
@@ -860,74 +866,4 @@
         font-size: 8px;
     }
 
-}
-
-/*--------------------------IE11修復----------------------------*/
-@media all and (-ms-high-contrast:none) {
-             
-    
-    html {
-        min-width: 100%;
-    }
-
-    .row {
-        width: 100%;
-    }
-
-    .col-md-8,
-    .col-sm-8 {
-        width: 66.67%;
-        min-width: 1px;
-
-    }
-
-    .col-md-4,
-    .col-sm-4 {
-        width: 33.33%;
-        min-width: 1px;
-    }
-
-    .col-md-5,
-    col-sm-5 {
-        width: 41.67%;
-        min-width: 1px;
-    }
-
-    .col-md-3,
-    .col-sm-3 {
-        width: 25%;
-        min-width: 1px;
-    }
-
-    .col-md-9,
-    .col-sm-9 {
-        width: 75%;
-        min-width: 1px;
-    }
-
-    .col-md-12,
-    .col-sm-12 {
-        width: 100%;
-        min-width: 1px;
-    }
-
-    .col-md-6,
-    .col-am-6 {
-        width: 50%;
-        min-width: 1px;
-    }
-
-    .col-md-2,
-    .col-sm-2 {
-        width: 16.67%;
-        min-width: 1px;
-    }
-
-    .space-between > svg {
-        height: 1px;
-    }/*----------補間動畫關閉 在IE-----------*/
-
-    blockquotes {
-        display: none;
-    }
 }
