@@ -12,12 +12,29 @@ html {
 
 .section-1,
 .section-2,
-.section-3 {
+.section-3,
+ {
     display: block;
 }
 
-.row {
-    width: 100%;
+.row,
+.col-md-8,
+.col-sm-8,
+.col-md-4,
+.col-sm-4,
+.col-md-5,
+col-sm-5,
+.col-md-3,
+.col-sm-3,
+.col-md-9,
+.col-sm-9,
+.col-md-12,
+.col-sm-12,
+.col-md-6,
+.col-am-6,
+.col-md-2,
+.col-sm-2{
+    display: block;  
 }
 
 .col-md-8,
@@ -69,6 +86,9 @@ col-sm-5 {
     min-width: 1px;
 }
 
+.nav a {
+    display: block;
+}
 
 .space-between > svg {
     display: none;
