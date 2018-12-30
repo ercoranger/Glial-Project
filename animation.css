@@ -1,5 +1,4 @@
 /*---hightlights&position---*/
-
 .highlight {
     width: 100%;
     z-index: -99;
@@ -13,76 +12,93 @@
 .flash-1 {
     top: 22%;
     left: 12%;
-    transform: rotate(65deg);
+    -ms-transform: rotate(65deg);
+    -webkit-transform: rotate(65deg);
+            transform: rotate(65deg);
+    
 }
 
 .flash-2 {
     top: 48%;
     left: 25%;
-    transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
 }
 
 .flash-3 {
     top: 3%;
     left: 22%;
-    transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
 }
 
 .flash-4 {
     top: 4%;
     right: 16%;
-    transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
 }
 
 .flash-5 {
     top: 37%;
     right: 9%;
-    transform: rotate(-80deg);
+    -webkit-transform: rotate(-80deg);
+            transform: rotate(-80deg);
 }
 
 .flash-6 {
     top: 52%;
     right: 20%;
-    transform: rotate(-118deg);
+    -webkit-transform: rotate(-118deg);
+            transform: rotate(-118deg);
 }
 
 .flash-7 {
     top: 24%;
     right: 28%;
-    transform: rotate(-22deg);
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
 }
 
 .flash-8 {
     top: 52%;
     left: 6%;
-    transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+            transform: rotate(11deg);
 }
 
 .flash-9 {
     bottom: 45%;
     right: 15%;
-    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
     z-index: 66;
 }
 
 .flash-10 {
     top: 55%;
     right: 15%;
-    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
     z-index: 999;
 }
 
 .flash-11 {
     top: 15%;
     right: 12%;
-    transform: rotate(18deg);
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
     z-index: 999;
 }
 
 .flash-12 {
     top: 39%;
     left: 30%;
-    transform: rotate(-22deg);
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
     z-index: 999;
 }
 
@@ -102,15 +118,19 @@
 /*---------svg--------------*/
 
 .stroke {
+    height: 272px;
     height: 17rem;
     opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     stroke-dashoffset: 500;
     stroke-dasharray: 300;
 }
 
 .stroke-2 {
+    height: 192px;
     height: 12rem;
     opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     stroke-dashoffset: 500;
     stroke-dasharray: 300;
 }
@@ -122,9 +142,9 @@
 }
 
 .ani {
-    animation: draw 9s linear infinite;
+    -webkit-animation: draw 9s linear infinite;
+            animation: draw 9s linear infinite;
 }
-
 @keyframes draw {
 
    0% {

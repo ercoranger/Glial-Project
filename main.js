@@ -8,13 +8,9 @@ var sec2Height = section2.offsetHeight + sec1Height - 30;
 var sec3Height = section3.offsetHeight + sec2Height - 30;
 var sec4Height = section4.offsetHeight + sec3Height - 50;
 
-console.log(sec1Height);
-
 $(function () {
     $(window).scroll(function () {
         var scrollVal = $(this).scrollTop();
-        
-        console.log(scrollVal);
 
         if (scrollVal >= sec1Height) {
             $('.nav').addClass('nav-fixed');
@@ -62,7 +58,5 @@ $(function () {
     $(".click2buy").mouseout(function () {
         $(".click2buy-text").removeClass('show-click2buy');
     });
-
-
 
 });
