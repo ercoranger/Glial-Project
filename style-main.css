@@ -163,7 +163,7 @@ blockquote {
     font-size: 0.6rem;
     writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
 }
 
 .icon-pages {

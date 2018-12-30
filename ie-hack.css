@@ -2,7 +2,7 @@
     width: device-width;
 }
 
-.row,
+/*.row,
 .col-md-8,
 .col-sm-8,
 .col-md-4,
@@ -21,6 +21,7 @@ col-sm-5,
 .col-sm-2 {
     display: inline-block;
 }
+
 
 html {
     width: 100%;
@@ -81,6 +82,7 @@ col-sm-5 {
     width: 16.67%;
     min-width: 1px;
 }
+*/
 
 .space-between > svg {
     height: 1px;

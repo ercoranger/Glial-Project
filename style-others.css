@@ -46,6 +46,10 @@
         height: 900px;
     }
 
+    .quote {
+        margin: -6% 0 0 0;
+    }
+
     .il-left {
         margin: 5rem 0 0 10%;
     }
@@ -59,8 +63,8 @@
         margin-top: 1%;
     }
 
-    .flash-7 {
-        display: none;
+    .nav > ul {
+        margin: 2% 0 0 0;
     }
 
     .text-box {
@@ -72,8 +76,11 @@
         margin: 60% 0 0 10%;
     }
 
-    .flash-10 {
-        top: -10%;
+
+    .flash-7,
+    .flash-2,
+    .flash-11 {
+        display: none;
     }
 
     .s2-bg {
@@ -244,7 +251,7 @@
     .banner {
         height: 620px;
     }
-    
+
     .flash-1 {
         display: none;
     }
@@ -384,7 +391,7 @@
         background-image: url(imgs/xs-banner.png);
         opacity: 0.5;
     }
-    
+
 
     header {
         height: 1000px;
@@ -744,10 +751,6 @@
 
 
 
-
-
-
-
 @media (max-width: 375px) {
 
     .section-1,
@@ -764,7 +767,7 @@
     }
 
     .text-box-2 {
-        margin: 52% 0 0 -6%;
+        margin: 38% 0 0 -6%;
     }
 
     .name-boxes h4 {
@@ -782,6 +785,14 @@
         top: 65%;
     }
 
+    .project-title {
+        top: 5%;
+    }
+
+    .quote {
+        margin: -20% 0 0 0;
+    }
+
     .brand-intro > h4 {
         font-size: 0.7rem;
         letter-spacing: 0.5rem;
@@ -793,4 +804,18 @@
         font-size: 8px;
     }
 
+}
+
+
+/*-----------------IE11----------------*/
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+
+    .section-1,
+    .section-2,
+    section-3 {
+        display: block;
+    }
+    
 }
