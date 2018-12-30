@@ -1,3 +1,5 @@
+/*--for IE9 & below--*/
+
 @-ms-viewport {
     width: device-width;
 }
@@ -9,7 +11,7 @@
 
 
 html {
-    width: 1280px;
+    width: 100%;
     min-width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -18,10 +20,6 @@ html {
 .section-1,
 .section-2,
 .section-3,
-    {
-    display: block;
-}
-
 .row,
 .col-md-8,
 .col-sm-8,
@@ -39,8 +37,9 @@ html {
 .col-am-6,
 .col-md-2,
 .col-sm-2 {
-    display: inline;
-    zoom: 1; 
+     display: inline-block;
+	*display: inline;
+	*zoom: 1;
 }
 
 .col-md-8,
@@ -92,12 +91,6 @@ col-sm-5 {
     min-width: 1px;
 }
 
-.nav {
-    display: inline-block;
-	*display: inline;
-	*zoom: 1;
-}
-
 .nav ul a {
      display: inline-block;
 	*display: inline;
@@ -108,6 +101,10 @@ col-sm-5 {
     position: relative;
     top: inherit;
     margin: inherit;
+}
+
+.on-page {
+    background-color: #000\9;
 }
 
 .space-between > svg {
