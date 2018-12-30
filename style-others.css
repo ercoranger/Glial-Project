@@ -842,4 +842,10 @@
         height: 1px;
     }
     
+    .nav ul a{
+        display: block;
+    }
+    
 }
+
+
