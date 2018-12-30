@@ -68,13 +68,13 @@ col-sm-5 {
 
 .col-md-3,
 .col-sm-3 {
-    width: 24.5%;
+    width: 24.8%;
     min-width: 1px;
 }
 
 .col-md-9,
 .col-sm-9 {
-    width: 74.5%;
+    width: 74.8%;
     min-width: 1px;
 }
 
@@ -86,7 +86,7 @@ col-sm-5 {
 
 .col-md-6,
 .col-am-6 {
-    width: 45.5%;
+    width: 45.8%;
     min-width: 1px;
 }
 
@@ -133,9 +133,9 @@ col-sm-5 {
     background-color: #fff;
 }
 
-.logo {
-    margin-left: 65%;
-    width: 150%;
+.footer-links li{
+    display: inline;
+    width: 15%;
 }
 
 .footer-links a{
