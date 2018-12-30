@@ -821,25 +821,22 @@
     .ip-3{
         top: 0;
     }
-    
-    .intro-en-main {
-        
-    }
+
     
     .icon-pages > img {
-        margin-bottom: -200px;
+        margin-bottom: -150px;
     }
     
     .intro-en{
         margin: 0 0 0 10px;
     }
     
-    .text-box > h6 {
+    .text-box > h6, .text-box-2 > h6 {
         font-size: 24px;
     }
     
     .space-between > svg{
-        height: 1px;
+        display: none;
     }
     
     .nav ul a{
