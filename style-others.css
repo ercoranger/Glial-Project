@@ -818,8 +818,16 @@
         display: block;
     }
     
+    .ip-2 > img{
+        margin-bottom: -130px;
+    }
+    
     .ip-3{
-        top: 0;
+        top: 10%;
+    }
+    
+    .ip-3 > img{
+        margin-bottom: -130px;
     }
 
     

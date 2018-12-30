@@ -617,10 +617,10 @@ blockquote {
 }
 
 .brand-intro >h4:hover{
-    letter-spacing: 64px;
-    letter-spacing: 4rem;
-    text-indent: 64px;
-    text-indent: 4rem;
+    letter-spacing: 39px;
+    letter-spacing: 2.5rem;
+    text-indent: 39px;
+    text-indent: 2.5rem;
     -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }

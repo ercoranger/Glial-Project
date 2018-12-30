@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 
 
@@ -15,6 +16,10 @@ html {
     min-width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
 }
 
 .section-1,
@@ -44,32 +49,32 @@ html {
 
 .col-md-8,
 .col-sm-8 {
-    width: 66.67%;
+    width: 66%;
     min-width: 1px;
 
 }
 
 .col-md-4,
 .col-sm-4 {
-    width: 33.33%;
+    width: 33%;
     min-width: 1px;
 }
 
 .col-md-5,
 col-sm-5 {
-    width: 41.67%;
+    width: 41%;
     min-width: 1px;
 }
 
 .col-md-3,
 .col-sm-3 {
-    width: 25%;
+    width: 24.5%;
     min-width: 1px;
 }
 
 .col-md-9,
 .col-sm-9 {
-    width: 75%;
+    width: 74.5%;
     min-width: 1px;
 }
 
@@ -81,14 +86,35 @@ col-sm-5 {
 
 .col-md-6,
 .col-am-6 {
-    width: 50%;
+    width: 45.5%;
     min-width: 1px;
 }
 
 .col-md-2,
 .col-sm-2 {
-    width: 16.67%;
+    width: 16%;
     min-width: 1px;
+}
+
+.col-md-3{
+    z-index: 1;
+    position: relative;
+        
+}
+
+.text-box-2{
+    z-index: 999;
+    position: relative;
+}
+
+.text-box-2 >h3, .text-box-2>h6, .text-box-2>p{
+    z-index: 999999;
+    position: relative;
+} 
+
+.col-md-9, .s-combo-2{
+    z-index: -999;
+    position: relative;
 }
 
 .nav ul a {
@@ -104,7 +130,18 @@ col-sm-5 {
 }
 
 .on-page {
-    background-color: #000\9;
+    background-color: #fff;
+}
+
+.logo {
+    margin-left: 65%;
+    width: 150%;
+}
+
+.footer-links a{
+    display: inline-block;
+	*display: inline;
+	*zoom: 1;
 }
 
 .space-between > svg {
