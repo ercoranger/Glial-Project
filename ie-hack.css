@@ -58,10 +58,15 @@ html {
 .col-sm-4 {
     width: 33%;
     min-width: 1px;
+    max-width: 33%
+}
+
+.col-md-offset-4{
+    margin-left: 33%;
 }
 
 .col-md-5,
-col-sm-5 {
+.col-sm-5 {
     width: 41%;
     min-width: 1px;
 }
@@ -70,6 +75,11 @@ col-sm-5 {
 .col-sm-3 {
     width: 24.8%;
     min-width: 1px;
+    max-width: 24.8%;
+}
+
+.col-sm-offset-3{
+    margin-left: 24.8%;
 }
 
 .col-md-9,
@@ -85,7 +95,7 @@ col-sm-5 {
 }
 
 .col-md-6,
-.col-am-6 {
+.col-sm-6 {
     width: 45.8%;
     min-width: 1px;
 }
@@ -94,6 +104,7 @@ col-sm-5 {
 .col-sm-2 {
     width: 16%;
     min-width: 1px;
+    max-width: 16%;
 }
 
 .col-md-3{
@@ -118,9 +129,14 @@ col-sm-5 {
 }
 
 .nav ul a {
-     display: inline-block;
+    width: 24.5%;
+    display: inline-block;
 	*display: inline;
 	*zoom: 1;
+}
+
+.quote{
+    text-align: center;
 }
 
 .nav-fixed {

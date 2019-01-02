@@ -118,8 +118,8 @@ header {
     font-size: 1.2rem;
     margin-bottom: 35.2px;
     margin-bottom: 2.2rem;
-    letter-spacing: 4px;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
+    letter-spacing: 0.3rem;
 }
 
 .quote > p {
@@ -210,6 +210,13 @@ blockquote {
 .nav a {
     text-decoration: none;
     width: 25%;
+}
+
+.nav a li:hover {
+    letter-spacing: 10px;
+    text-indent: 10px;
+    transition: all .5s ease-in;
+    
 }
 
 .nav-option {
@@ -364,7 +371,6 @@ blockquote {
 }
 
 .detail-box {
-    text-align: justify;
     padding: 5% 2%;
 }
 
