@@ -1,3 +1,8 @@
+//ie-alert
+if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > 0) {
+     window.alert('建議使用其他瀏覽器以獲得更好體驗，如Chrome, Safari等');
+}
+
 var section1 = document.getElementById('landingIntro');
 var section2 = document.getElementById('astrocyte');
 var section3 = document.getElementById('schwann-cells');
@@ -50,7 +55,6 @@ $(function () {
 
     });
 
-
     $(".click2buy").mouseover(function () {
         $(".click2buy-text").addClass('show-click2buy');
     });
@@ -58,5 +62,6 @@ $(function () {
     $(".click2buy").mouseout(function () {
         $(".click2buy-text").removeClass('show-click2buy');
     });
-
+    
+     
 });

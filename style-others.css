@@ -721,8 +721,8 @@
 
     .name-boxes h4 {
         font-size: 0.1rem;
-        letter-spacing: 0;
-        text-indent: 0;
+        letter-spacing: 0.5px;
+        text-indent: 0.5px;
         font-weight: 100;
     }
 
@@ -762,8 +762,6 @@
 }
 
 
-
-
 @media (max-width: 375px) {
 
     .section-1,
@@ -776,7 +774,7 @@
     }
 
     .ip-3 {
-        top: 0;
+        top: 8%;
     }
 
     .text-box-2 {
@@ -811,10 +809,6 @@
         letter-spacing: 0.5rem;
         text-indent: 0.5rem;
         margin: 5% 0 10% 0;
-    }
-
-    .name-boxes h4 {
-        font-size: 8px;
     }
 
 }
