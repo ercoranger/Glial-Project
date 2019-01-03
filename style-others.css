@@ -155,7 +155,7 @@
         font-size: 0.95rem;
         line-height: 1.8rem;
     }
-    
+
     .brand-intro > h4:hover {
         letter-spacing: 2rem;
         text-indent: 2rem;
@@ -213,7 +213,7 @@
         margin: 0;
         background-color: transparent;
         font-size: 0.9rem;
-        bottom: 20%;
+        bottom: 18%;
         color: #90A4AE;
     }
 
@@ -223,25 +223,30 @@
 
 
     .space-between > svg {
-        height: 80px;
+        height: 200px;
     }
 
-   .brand-intro > h4{
+    .space-between {
+        width: 120%;
+        margin: -17% 0 0 -8%;
+    }
+
+    .brand-intro > h4 {
         letter-spacing: 1.5rem;
         text-indent: 1.5rem;
     }
-    
+
     .brand-intro > h4:hover {
         letter-spacing: 1.6rem;
         text-indent: 1.6rem;
         transition: all .5s ease-in;
     }
-    
-     .logo {
+
+    .logo {
         width: 75%;
         margin: 0 12.5%;
     }
-    
+
 }
 
 
@@ -353,7 +358,6 @@
         max-width: 66.667%;
         margin: 20% 0 0 2%;
         padding: 2% 5%;
-        text-align: center;
     }
 
     .text-box-3 {
@@ -369,17 +373,13 @@
         z-index: 999;
     }
 
-    .text-box-3 {
-        top: -10%;
-    }
-
     .s3-bg {
         margin-top: 30%;
     }
 
     .click2buy-text {
         font-size: 0.7rem;
-        bottom: 29%;
+        bottom: 12%;
     }
 
     .c-t-2 {
@@ -547,6 +547,18 @@
         text-indent: 1rem;
     }
 
+    .space-between > svg {
+        height: 200px;
+    }
+
+    .s-b-3 {
+        height: 10px;
+    }
+
+    .space-between {
+        margin: -45% 0 0 -5%;
+    }
+
 
 }
 
@@ -585,7 +597,7 @@
     }
 
     .flash-6 {
-        right: 8%;
+        display: none;
     }
 
     .flash-3 {
@@ -633,10 +645,6 @@
         line-height: 1.4rem;
     }
 
-    .text-box {
-        margin: -20% 0 0 -5%;
-    }
-
     .flash-9 {
         bottom: 25%;
     }
@@ -662,7 +670,7 @@
     }
 
     .detail-box:nth-of-type(1) {
-        margin: 3% 5% 0 5%;
+        margin: -20% 5% 0 5%;
     }
 
     .detail-box:nth-of-type(2) {
@@ -672,6 +680,10 @@
     .detail-box > h5 {
         font-size: 0.8rem;
         text-decoration: underline;
+    }
+
+    .section-2 h5 {
+        margin-top: -20%;
     }
 
     .content-detail p {
@@ -684,7 +696,7 @@
     }
 
     .section-3 {
-        height: 350px;
+        height: 400px;
     }
 
     .icon-pages {
@@ -700,16 +712,30 @@
         margin-top: -1rem;
     }
 
+    .text-box {
+        margin: -66% 0 0 -5%;
+    }
+
     .text-box-2 {
-        margin: 42% 0 0 -6%;
+        margin: 55% 0 0 -4%;
+        padding: 2% 3%;
+    }
+
+    .text-box-3 {
+        top: -5%;
     }
 
     .s-combo-2 {
-        margin-bottom: 8rem;
+        margin-bottom: 22rem;
+        margin-top: -15%;
     }
 
     .s-combo-3 {
-        margin: 5% 5% 0 5%;
+        margin: 10% 5% 0 5%;
+    }
+
+    .ip-3 {
+        top: 8%;
     }
 
     .name-box-1,
@@ -756,7 +782,7 @@
     }
 
     .disclaimer {
-        font-size: 0.45rem;
+        font-size: 8px;
     }
 
 }
@@ -766,11 +792,12 @@
 
     .section-1,
     .section-2 {
-        height: 1450px;
+        height: 1600px;
     }
 
     .s-combo-2 {
-        margin-bottom: 15rem;
+        margin-bottom: 20rem;
+        margin-top: -15%;
     }
 
     .ip-3 {
@@ -778,7 +805,11 @@
     }
 
     .text-box-2 {
-        margin: 38% 0 0 -6%;
+        margin: 45% 0 0 -6%;
+    }
+
+    .section-2 h5 {
+        margin-top: 5%;
     }
 
     .name-boxes h4 {
@@ -811,6 +842,21 @@
         margin: 5% 0 10% 0;
     }
 
+}
+
+@media (max-width: 325px) {
+
+    .text-box-2 {
+        margin: 65% 0 0 -6%;
+    }
+
+    .section-2 h5 {
+        margin-top: 0;
+    }
+
+    .disclaimer {
+        font-size: 6px;
+    }
 }
 
 
