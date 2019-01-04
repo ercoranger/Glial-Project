@@ -319,7 +319,7 @@
     .section-2,
     .section-3 {
         width: 100%;
-        height: calc(1180px + 5%);
+        height: calc(1280px + 5%);
     }
 
     .section-2 > .row {
@@ -332,7 +332,8 @@
     }
 
     .s-combo-2 {
-        margin-bottom: 10rem;
+        margin-bottom: 15rem;
+        margin-top: -10%;
     }
 
     .text-box {
@@ -705,7 +706,7 @@
     }
 
     .divider {
-        margin: 7% 10%;
+        margin: 0% 10% 10% 10%;
     }
 
     .section-2 > .row {
@@ -805,7 +806,7 @@
     }
 
     .text-box-2 {
-        margin: 45% 0 0 -6%;
+        margin: 46% 0 0 -4.5%;
     }
 
     .section-2 h5 {
@@ -841,17 +842,26 @@
         text-indent: 0.5rem;
         margin: 5% 0 10% 0;
     }
+    
+    .s-b-3 {
+        display: none;
+    }
 
 }
 
 @media (max-width: 325px) {
 
     .text-box-2 {
-        margin: 65% 0 0 -6%;
+        margin: 55% 0 0 -4.5%;
     }
 
     .section-2 h5 {
         margin-top: 0;
+    }
+
+    .s-combo-2 {
+        margin-bottom: 21rem;
+        margin-top: -35%;
     }
 
     .disclaimer {
