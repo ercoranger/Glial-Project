@@ -9,9 +9,9 @@ var section3 = document.getElementById('schwann-cells');
 var section4 = document.getElementById('satelite-cells');
 
 var sec1Height = section1.offsetHeight;
-var sec2Height = section2.offsetHeight + sec1Height - 30;
-var sec3Height = section3.offsetHeight + sec2Height - 30;
-var sec4Height = section4.offsetHeight + sec3Height - 50;
+var sec2Height = section2.offsetHeight + sec1Height - 20;
+var sec3Height = section3.offsetHeight + sec2Height - 20;
+var sec4Height = section4.offsetHeight + sec3Height - 30;
 
 $(function () {
     $(window).scroll(function () {
